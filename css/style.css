@@ -7,6 +7,7 @@
 main{
     max-width: 1000px;
     margin: 0 auto;
+    font-family: 'Fredoka One', cursive;   
 }
 
 /*indroduzione*/
@@ -15,8 +16,10 @@ main{
 }
 
 .title{
-    font-family: 'Fredoka One', cursive;
+    font-weight: bold 700;
+    font-family: 'Fredoka', sans-serif;
     color: #D22F68;
+    padding: 20px;
 }
 
 /*layout card*/
@@ -27,7 +30,7 @@ main{
     color:white;
     float: left;
     margin-right: 5%;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .last.card{
@@ -52,6 +55,5 @@ img{
 }
 
 .card>h4{
-    font-family: 'Fredoka One', cursive;
-    padding: 10px;
+    padding: 8px;
 }
