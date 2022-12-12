@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 main{
@@ -14,6 +14,11 @@ main{
     text-align: center;
 }
 
+.title{
+    font-family: 'Fredoka One', cursive;
+    color: #D22F68;
+}
+
 /*layout card*/
 
 .card{
@@ -22,7 +27,7 @@ main{
     color:white;
     float: left;
     margin-right: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .last.card{
@@ -39,4 +44,14 @@ img{
     content:"";
     display: block;
     clear: both;
+}
+
+/*layout testo*/
+.card>address{
+    color: #3AA5D0;
+}
+
+.card>h4{
+    font-family: 'Fredoka One', cursive;
+    padding: 10px;
 }
