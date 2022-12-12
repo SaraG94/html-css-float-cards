@@ -18,8 +18,8 @@ main{
 
 .card{
     width: 30%;
-    height: 50px;
-    background-color: aquamarine;
+    background-color: black;
+    color:white;
     float: left;
     margin-right: 5%;
     margin-bottom: 10px;
@@ -27,4 +27,16 @@ main{
 
 .last.card{
     margin-right: 0;   
+}
+
+img{
+    float: left;
+    width: 30%;
+    margin-right: 15px;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
 }
