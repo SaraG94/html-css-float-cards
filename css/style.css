@@ -16,7 +16,7 @@ main{
 
 /*layout card*/
 
-.col{
+.card{
     width: 30%;
     height: 50px;
     background-color: aquamarine;
@@ -25,6 +25,10 @@ main{
     margin-bottom: 10px;
 }
 
-.col:nth-of-type(3n){
-    margin-right: 0%;
-}
+.conteiner .card:last-child{
+    margin-right: 0px;   
+} 
+
+/*.conteiner .col>.card{
+    margin-right: 0px;   
+}*/
