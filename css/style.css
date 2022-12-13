@@ -24,17 +24,20 @@ main{
 
 /*layout card*/
 
-.card{
+.col{
     width: 30%;
-    background-color: black;
-    color:white;
-    float: left;
     margin-right: 5%;
     margin-top: 30px;
+    float: left;
 }
 
-.last.card{
-    margin-right: 0;   
+.row > .col:nth-child(3n){
+    margin-right: 0;
+}
+
+.card{
+    background-color: black;
+    color:white;
 }
 
 img{
